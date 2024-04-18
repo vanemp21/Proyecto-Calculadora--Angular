@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: min-content;
+  margin: 0;
+}
+.container button {
+  color: #fff;
+  padding: 15px;
+  width: 60px;
+  background: linear-gradient(180deg, #2f2f2f, #3f3f3f);
+  box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),
+    inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75),
+    10px 20px 25px rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+  border-radius: 10px;
+  border-color: black;
+}
+.container button:active {
+  filter: brightness(1.5);
+}
+.container2 {
+  display: flex;
+  gap: 15px;
+  width: 10px;
+  padding-right: 10px;
+  margin-right: 0;
+}
+.container2 button {
+  transform: translate(-150px, -52px);
+  color: #fff;
+  padding: 10px 30px;
+  place-items: center;
+  background: linear-gradient(180deg, #2f2f2f, #3f3f3f);
+  box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),
+    inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75),
+    10px 20px 25px rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+  border-radius: 10px;
+  border-color: black;
+}
+.container2 button:active {
+  filter: brightness(1.5);
+}
+@media screen and (max-width: 990px) {
+  body > div > div > div > div.operadores > app-operadores > div.container {
+    width: 10px;
+  }
+}

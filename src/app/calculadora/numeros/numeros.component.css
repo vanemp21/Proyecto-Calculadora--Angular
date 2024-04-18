@@ -1,0 +1,27 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto); /* Altura de las filas */
+  gap: 10px; /* Espacio entre celdas */
+}
+
+.grid-item {
+  text-align: center;
+}
+button {
+  color: #fff;
+  position: relative;
+  display: grid;
+  padding: 10px 30px;
+  place-items: center;
+  background: linear-gradient(180deg, #2f2f2f, #3f3f3f);
+  box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),
+    inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75),
+    10px 20px 25px rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+  border-radius: 10px;
+  border-color: black;
+}
+button:active {
+  filter: brightness(1.5);
+}

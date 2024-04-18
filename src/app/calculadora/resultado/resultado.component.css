@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Reem+Kufi+Fun:wght@400..700&display=swap");
+p {
+  background: rgb(100, 153, 154);
+  background: linear-gradient(
+    0deg,
+    rgba(100, 153, 154, 1) 0%,
+    rgba(191, 217, 212, 1) 100%
+  );
+  padding: 30px 0px;
+  border-radius: 10px;
+  padding-right: 10px;
+  text-align: end;
+  backdrop-filter: blur(2px);
+  border: 1px solid black;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(68, 68, 67);
+  font-size: 28px;
+  height: 104px;
+}

@@ -1,0 +1,8 @@
+<div class="grid-container">
+  <button
+    [ngClass]="'grid-item btn btn-primary numero-' + mostrarNumero"
+    *ngFor="let mostrarNumero of numeros.reverse()"
+    (click)="getNumero(mostrarNumero.toString())">
+    {{ mostrarNumero }}
+  </button>
+</div>
